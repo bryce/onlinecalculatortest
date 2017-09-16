@@ -217,9 +217,7 @@ There are no specific security requirements for the site and it does not store a
 
 ### Functional Cases <a id="functional-cases"></a>
         
-Operations| Functionality        
-
-|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area||
+|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area|
 |-------------|:-------------:|-----|-----|-----|-----|-----|-----
 |TC01|Addition of two positive integers|5 + 12|17|N/A|Operations||
 |TC02|Addition of two negative integers|-4 + -444|-448|N/A|Operations||
