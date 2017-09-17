@@ -218,8 +218,8 @@ There are no specific security requirements for the site and it does not store a
 ### Functional Cases <a id="functional-cases"></a>
             
 
-|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area||
-|-------------|:-------------:|-----|-----|-----|-----|-----|-----
+|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area|
+|-------------|:-------------:|-----|-----|-----|-----|
 |TC01|Addition of two positive integers|5 + 12|17|N/A|Operations||
 |TC02|Addition of two negative integers|-4 + -444|-448|N/A|Operations||
 |TC03|Addition of one positive and one negative integer where positive is greater|12 + -7|5|R1|Operations||
