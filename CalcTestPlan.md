@@ -140,6 +140,7 @@ Since we don't have stats from google analytics or other web/device analytics so
 
 Desktop Browsers stats
 http://gs.statcounter.com/browser-version-market-share/desktop/canada/#monthly-201707-201708-bar
+
 Chrome 59 - 29%
 Chrome 60 - 18%
 IE - 12%
@@ -147,25 +148,34 @@ FF 54 - 8%
 Safari - 10.1%
 
 Device Screen Resolution
-http://gs.statcounter.com/screen-resolution-stats71%/mobile-tablet/canada/#monthly-201707-201708-bar
+http://gs.statcounter.com/screen-resolution-stats/mobile-tablet/canada/#monthly-201707-201708-bar
+
+360x640- 22%
+768x1024 - 21%
+375x667 - 17%
+320x568 - 12%
 
 Desktop OSes
 http://gs.statcounter.com/os-market-share/desktop/canada#monthly-201707-201708-bar
+
 Windows - 76%
 OSX - 22%
 
 iOS versions
 http://gs.statcounter.com/os-version-market-share/ios/mobile-tablet/canada#monthly-201707-201708-bar
+
 10.3 - 71%
 9.3 - 10%
 
 Android versions
 http://gs.statcounter.com/os-version-market-share/android/mobile-tablet/canada#monthly-201707-201708-bar
+
 6.0 - 36%
 7.0 - 33%
 
 Combined stats for OSes
 http://gs.statcounter.com/os-market-share/desktop-mobile-tablet/canada/#monthly-201707-201708-bar
+
 Windows - 42%
 iOS = 27%
 Android - 17%
@@ -183,7 +193,7 @@ We will be testing any browser / device os comvination where the total page view
 With this criteria the following Browser/device/OSes combinations are in scope. 
 
 | Browser |Device | OS |
-| ------------- |-------------|
+| ------------- |-------------|-------------|
 | Safari | IPhone 7 | iOS 10.3|
 | Safari | IPhone 6 | iOS 9.3|
 | Safari | Ipad 12 in| iOS 10.3|
