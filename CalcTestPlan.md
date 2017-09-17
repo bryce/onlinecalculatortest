@@ -163,8 +163,8 @@ With this criteria the following Browser/device/OSes combinations are in scope.
 | Safari | IPhone 7 | iOS 10.3| 53| 1|
 | Safari | IPhone 6 | iOS 9.3| 53| 2|
 | Safari | Ipad 12 in| iOS 10.3| 53| 3|
-| Safari | Ipad 12| iOS 10.3| 53| 4|
-| Safari | Ipad Pro | iOS 10.3| 53| 5|
+| Safari | Ipad 9.7| iOS 10.3| 53| 4|
+| Safari | Ipad mini | iOS 10.3| 53| 5|
 | Chrome | Galaxy S7 | 6.0 | 53| 6|
 | Chrome | Galaxy S8 | 7.0 | 53| 7|
 | Safari 10.1 | Mac | OSX | 53| 8|
@@ -216,9 +216,10 @@ There are no specific security requirements for the site and it does not store a
 ## Test Cases
 
 ### Functional Cases <a id="functional-cases"></a>
-        
-|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area|
-|-------------|:-------------:|-----|-----|-----|-----|
+            
+
+|Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area||
+|-------------|:-------------:|-----|-----|-----|-----|-----|-----
 |TC01|Addition of two positive integers|5 + 12|17|N/A|Operations||
 |TC02|Addition of two negative integers|-4 + -444|-448|N/A|Operations||
 |TC03|Addition of one positive and one negative integer where positive is greater|12 + -7|5|R1|Operations||
@@ -298,6 +299,7 @@ There are no specific security requirements for the site and it does not store a
 |TC77|Check page load time (webpagetest browser)|goto webpagetest.org and put in theonlinecalculator.com and select Dallas Thinkpad T4430 with chrome and run|Page is fully loaded under 2 seconds|AR10|Performance||
 |TC78|Check page load time (webpagetest mobile)|goto webpagetest.org and put in theonlinecalculator.com and select S7 with chrome and connection = mobile 3g fast and run|Page is fully loaded under 3 seconds|AR11|Performance||
 |TC79|Check page load time (Lighthouse)|Desktop chrome -> dev tools -> audits tab -> peform audit -> select performance |Page is fully loaded under 2 seconds|AR12|Performance||
+|TC80|All Clear removes all values|Press 8 + 8 = -> Press CE -> Press AC -> press + -> press3 -> press =|16 should appear then be removed. Nothing should happen then you press +3 = as value is removed|R7|Operations|
 
 ### Test Execution <a id="test-execution"></a>
 
