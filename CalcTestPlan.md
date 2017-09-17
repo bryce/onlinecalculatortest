@@ -142,49 +142,65 @@ Desktop Browsers stats
 http://gs.statcounter.com/browser-version-market-share/desktop/canada/#monthly-201707-201708-bar
 
 Chrome 59 - 29%
+
 Chrome 60 - 18%
+
 IE - 12%
+
 FF 54 - 8%
+
 Safari - 10.1%
 
 Device Screen Resolution
 http://gs.statcounter.com/screen-resolution-stats/mobile-tablet/canada/#monthly-201707-201708-bar
 
 360x640- 22%
+
 768x1024 - 21%
+
 375x667 - 17%
+
 320x568 - 12%
 
 Desktop OSes
 http://gs.statcounter.com/os-market-share/desktop/canada#monthly-201707-201708-bar
 
 Windows - 76%
+
 OSX - 22%
 
 iOS versions
 http://gs.statcounter.com/os-version-market-share/ios/mobile-tablet/canada#monthly-201707-201708-bar
 
 10.3 - 71%
+
 9.3 - 10%
 
 Android versions
 http://gs.statcounter.com/os-version-market-share/android/mobile-tablet/canada#monthly-201707-201708-bar
 
 6.0 - 36%
+
 7.0 - 33%
 
 Combined stats for OSes
 http://gs.statcounter.com/os-market-share/desktop-mobile-tablet/canada/#monthly-201707-201708-bar
 
 Windows - 42%
+
 iOS = 27%
+
 Android - 17%
+
 OSX - 12%
 
 Desktop vs Mobile vs Tablet
 http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/canada/#monthly-201707-201708-bar
+
 Desktop - 55%
+
 Mobile - 32%
+
 Tablet - 13%
 
 We will be testing any browser / device os comvination where the total page view popularity of > 5% of total views in the last 2 months in Canada. This ensures the site works with the majority of our users and limits the scope of supported browsers/devices. 
