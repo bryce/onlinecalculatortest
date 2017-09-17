@@ -283,8 +283,10 @@ There are no specific security requirements for the site and it does not store a
 |TC61|Calculating percentage of a number (percentage last)|type 25 -> press * -> type 20 -> press % -> press =|5 is displayed|R22|Percentage||
 |TC62|Calculating and adding tax to an item (percentage first)|Type 13.5 -> press % -> press * -> type 125.55 ->  press + -> type 125.55 -> press = -> press R2 |142.50 is displayed|R23,R24|Tax||
 |TC63|Calculating and adding tax to an item (percentage last)|Type 125.55 -> press + > type 13.5 -> press % -> press = -> Press R2|142.50 is displayed|R23,R24|Tax||
+|Use Cases|
 |TC64|Multiple operations Use Case - squares and division|Type 9 -> press square root -> press + -> type 6 -> press squared button -> press / -> press 3 -> press =|27 is displayed|N/A|Use Cases||
 |TC65|Multiple operations Use Case - rounding and multiplication|Type 9.3343 -> press * -> type 124.2221 -> press R0 -> press + -> 33|159.53 is displayed|N/A|Use Cases||
+|Accessibility|
 |TC66|Press tab to navigate through calculator keys|Load app ->Press tab multiple times|The input focus should move between the calculator key as you press tab|R28|Accessibility||
 |TC67|Action calculator key using enter key|Load app -> press tab and select a key -> press enter|Key select should be actioned|R28|Accessibility||
 |TC68|Keyboard navigate follows a logical order for calculator actions|Load app -> press tab multiple times|As you press tab the input focus you start on the display and cycle through numbers then operators first|AR07|Accessibility||
@@ -296,6 +298,7 @@ There are no specific security requirements for the site and it does not store a
 |TC74|Increase text size to ensure app functions with new text size|Go into browser/device settings and change text size to 2x greater|Calculator continues to function and display properly|R27|Accessibility||
 |TC75|All elements on page have alt or aira tags|Chrome -> dev tools -> inspect all elements in calculator for tags|All elements have correct tags|N/A|Accessibility||
 |TC76|Confirm WCAG Level 2A validate is met|Chrome -> dev tools -> run aXe chrome extension on site |No errors are found|N/A|Accessibility||
+|Performance|
 |TC77|Check page load time (webpagetest browser)|goto webpagetest.org and put in theonlinecalculator.com and select Dallas Thinkpad T4430 with chrome and run|Page is fully loaded under 2 seconds|AR10|Performance||
 |TC78|Check page load time (webpagetest mobile)|goto webpagetest.org and put in theonlinecalculator.com and select S7 with chrome and connection = mobile 3g fast and run|Page is fully loaded under 3 seconds|AR11|Performance||
 |TC79|Check page load time (Lighthouse)|Desktop chrome -> dev tools -> audits tab -> peform audit -> select performance |Page is fully loaded under 2 seconds|AR12|Performance||
