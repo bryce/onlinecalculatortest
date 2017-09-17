@@ -41,7 +41,7 @@
 
 
 
-### Requirements <a name="requirements"></a>
+### Requirements <a name="#requirements"></a>
 
 ### Explicit Requirements <a id="#explicit-requirements"></a>
 
@@ -86,7 +86,7 @@ These are the core business requirements that the application must meet.
 | R28 | Keyboard Control: You can use the calculator without a mouse by tabbing among the calculator keys. Press "Enter" when a key is focused. This method can be arduous however, since you must tab through all keys in sequence | Accessibility |
 | R29 | Number Keypad Control: You can use the calculator with certain keypads and browsers for integers, clear, and the basic functions of addition, subtraction, multiplication, and division. It works on a MacBook Pro number keypad in Chrome and Opera but not Safari or FireFox | Accessibility |
 
-### Implicit Requirements / Assumptions
+### Implicit Requirements / Assumptions <a id="#implicit-requirements"></a>
 
 The following are requirements that not specific listed in any of the application pages. 
 
