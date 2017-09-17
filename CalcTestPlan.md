@@ -29,8 +29,8 @@
 
 ### Test Cases
 #### Functional Cases
-#### Performance Cases
 #### Accessibility Cases
+#### Performance Cases
 #### Cross Browser / Device Cases
 
 ### Test Execution
@@ -57,26 +57,26 @@ These are the core business requirements that the application must meet.
 | Requirement id |Requirement    | Area |
 | ------------- |:-------------:| -----:|
 | R1 | Calculator has decimal precision up to 10 digits regardless of decimals | Operations| |
-| R2 | mc key will clear calculator memory | Keys |
-| R3 | m+ key add displayed value to memory | Keys |
-| R4 | m- key will subtract displayed value from memory | Keys |
-| R5 | mr key will display the memory value | Keys |
-| R6 | CE key will Clear Entry: clear current display value, changes to CE TO AC key | Keys |
-| R7 | AC key will clear all and start a new operation | Keys |
-| R8 | √x key will take the square root of the displayed value and display it | Keys |
-| R9 | +/- key will change the sign of the displayed value from positive to negative or vice versa | Keys |
-| R10 | π key will display the value of π as 3.141592654 to use in a calculation | Keys |
-| R11 | x² key will square the displayed value and display it | Keys |
-| R12 | R2 key will Round to 2 decimals: round the current display value to 2 decimal places such as in money or currency format | Keys |
-| R13 | R0 key will Round to 0 decimals: round off the current display value to 0 decimal places | Keys |
-| R14 | % key will Percent: use displayed value to calculate a percentage | Keys |
-| R15 | The calculator memory is at 0 until you hit m+ or m- | Keys |
-| R16 | Each time you hit m+ the number on the display is added to the number in the calculator memory  | Keys | 
-| R17 | Each time you hit m- the number on the display is subtracted from the number in the calculator memory  | Keys |
-| R18 | To recall the number in the calculator memory hit mr  | Keys | 
-| R19 | To zero out the memory hit mc  | Keys |
-| R20 | Use AC to clear out the current calculation  | Keys | 
-| R21 | Use CE to clear out the most recent entry. Note that if the AC key is not visible, hit CE and then AC to clear out your calculation | Keys |
+| R2 | mc key will clear calculator memory | Operations |
+| R3 | m+ key add displayed value to memory | Operations |
+| R4 | m- key will subtract displayed value from memory | Operations |
+| R5 | mr key will display the memory value | Operations |
+| R6 | CE key will Clear Entry: clear current display value, changes to CE TO AC key | Operations |
+| R7 | AC key will clear all and start a new operation | Operations |
+| R8 | √x key will take the square root of the displayed value and display it | Operations |
+| R9 | +/- key will change the sign of the displayed value from positive to negative or vice versa | Operations |
+| R10 | π key will display the value of π as 3.141592654 to use in a calculation | Operations |
+| R11 | x² key will square the displayed value and display it | Operations |
+| R12 | R2 key will Round to 2 decimals: round the current display value to 2 decimal places such as in money or currency format | Operations |
+| R13 | R0 key will Round to 0 decimals: round off the current display value to 0 decimal places | Operations |
+| R14 | % key will Percent: use displayed value to calculate a percentage | Operations |
+| R15 | The calculator memory is at 0 until you hit m+ or m- | Operations |
+| R16 | Each time you hit m+ the number on the display is added to the number in the calculator memory  | Operations | 
+| R17 | Each time you hit m- the number on the display is subtracted from the number in the calculator memory  | Operations |
+| R18 | To recall the number in the calculator memory hit mr  | Operations | 
+| R19 | To zero out the memory hit mc  | Operations |
+| R20 | Use AC to clear out the current calculation  | Operations | 
+| R21 | Use CE to clear out the most recent entry. Note that if the AC key is not visible, hit CE and then AC to clear out your calculation | Operations |
 | R22 | Multiplication and Division will convert the displayed value to a percent in decimal form and complete the operation when you press [=] | Percentages| 
 | R23 | Addition and Subtraction will add or subtract the percentage of a value | Percentages|
 | R24 | Handle Tax Calculation and adding tax | Tax |
@@ -88,14 +88,14 @@ These are the core business requirements that the application must meet.
 
 ### Implicit Requirements
 
-The following are requirements that not specific listed in any of the application pages. 
+The following are requirements that not specifically listed in any of the application pages. 
 
-Normally these requirements would be discussed with the product and development team in order to understand the business case for each. For this assignment we will have to make some assumptions about the functionality/scope in leiu of having those discussions. 
+Normally these requirements would be discussed with the product and development teams in order to understand the business cases for each. For this assignment we will have to make some assumptions about the functionality/scope in leiu of having those discussions. 
 
 #### Scope of Testing
 #### Out of scope for this exercise 
 
-The version of the same calculator on calculatorsoup.com or the widget version of the calculator
+The version of the same calculator on calculatorsoup.com sirte or the widget version of the calculator are both out of scope since they are specifically called out in the assignment. 
 
 See following links 
 
@@ -103,21 +103,23 @@ https://www.calculatorsoup.com/calculators/math/basic.php
 
 https://www.calculatorsoup.com/calculators/calculator-widgets.php?folder=math/&folderName=Math&folder2=&folderName2=&calc=1&pop=1&url=https://www.calculatorsoup.com/calculators/math/basic.php&h1=Basic%20Calculator&pop_w=400&pop_h=600
 
-Calculator only allows one operation at a time so we will not test that it follows correct order of operations (i.e. BODMAS)
+The calculator only allows one operation at a time so we will not test that the calculator follows correct order for multiple operations (i.e. BODMAS)
 
 #### Functionality
 
-Requirements for standard best practises for the core functionality of the app. 
+These are the requirements for standard best practises for the core functionality of the app. 
 
 | Requirement id |Requirement    | Area |
 | ------------- |:-------------:| -----:|
 | AR01 |Backspace / delete should remove last digital in display | Operations||
 | AR02 |User should be able to type in numbers and operations via keyboard | Operations| |
 | AR03 |The display should correctly display up to twenty digits including twenty digit real number and negative numbers| Display |
-|AR04 | If a equation returns a value greater than 20 digital number then the answer should display in exponent format | Display|
-    
+| AR04 | If a equation returns a value greater than 20 digital number then the answer should display in exponent format | Display|
+
+These have been chosen by comparing the calculator's functionality with other online calculators such as google's
+  
 #### Rounding
-There is no specific rule in the requirements about rounding so we will assume the calculator follows the same rules as other rounding calculators on the same site. 
+There is no specific rule in the requirements about rounding so we will assume the calculator follows the same rules as other rounding calculators found on the same site. 
 
 Example: 
 
@@ -134,55 +136,77 @@ We will not assume the calculator uses Banker's Rounding rules (round to nearest
 
 
 ### Browser / Device support
-Since we don't have stats from google analytics or other web/device analytics sources or direction from product team for supported browsers/devics. We are going to use the following sources to determine which browsers / devices we will test the platform with.    
+Since we don't have stats from google analytics or other web/device analytics sources or direction from product team for supported browsers/devices. We are going to use the following sources to determine which browsers / devices we will test the platform with.    
+
 Desktop Browsers stats
-http://gs.statcounter.com/browser-version-market-share/desktop/canada/#monthly-201703-201708-bar
+http://gs.statcounter.com/browser-version-market-share/desktop/canada/#monthly-201707-201708-bar
+Chrome 59 - 29%
+Chrome 60 - 18%
+IE - 12%
+FF 54 - 8%
+Safari - 10.1%
 
 Device Screen Resolution
-http://gs.statcounter.com/screen-resolution-stats/mobile-tablet/canada/#monthly-201703-201708-bar
+http://gs.statcounter.com/screen-resolution-stats71%/mobile-tablet/canada/#monthly-201707-201708-bar
 
 Desktop OSes
-http://gs.statcounter.com/os-market-share/desktop/canada#monthly-201703-201708-bar
+http://gs.statcounter.com/os-market-share/desktop/canada#monthly-201707-201708-bar
+Windows - 76%
+OSX - 22%
 
 iOS versions
-http://gs.statcounter.com/os-version-market-share/ios/mobile-tablet/canada#monthly-201703-201708-bar
+http://gs.statcounter.com/os-version-market-share/ios/mobile-tablet/canada#monthly-201707-201708-bar
+10.3 - 71%
+9.3 - 10%
 
 Android versions
-http://gs.statcounter.com/os-version-market-share/android/mobile-tablet/canada#monthly-201703-201708-bar
+http://gs.statcounter.com/os-version-market-share/android/mobile-tablet/canada#monthly-201707-201708-bar
+6.0 - 36%
+7.0 - 33%
 
 Combined stats for OSes
-http://gs.statcounter.com/os-market-share/desktop-mobile-tablet/canada/#monthly-201703-201708-bar
+http://gs.statcounter.com/os-market-share/desktop-mobile-tablet/canada/#monthly-201707-201708-bar
+Windows - 42%
+iOS = 27%
+Android - 17%
+OSX - 12%
 
+Desktop vs Mobile vs Tablet
+http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/canada/#monthly-201707-201708-bar
+Desktop - 55%
+Mobile - 32%
+Tablet - 13%
 
-We will be testing any browser / device will a total page view popularity of > 5% of total views in the last 6 months in Canada. This ensures the site works with the majority of our users and limits the scope of support browsers/devices. 
+We will be testing any browser / device os comvination where the total page view popularity of > 5% of total views in the last 2 months in Canada. This ensures the site works with the majority of our users and limits the scope of supported browsers/devices. 
+
 
 With this criteria the following Browser/device/OSes combinations are in scope. 
 
-| Browser |Device | OS | % of Page views| Platform id| 
-| ------------- |-------------| -----| -----:| -----:|
-| Safari | IPhone 7 | iOS 10.3| 53| 1|
-| Safari | IPhone 6 | iOS 9.3| 53| 2|
-| Safari | Ipad 12 in| iOS 10.3| 53| 3|
-| Safari | Ipad 9.7| iOS 10.3| 53| 4|
-| Safari | Ipad mini | iOS 10.3| 53| 5|
-| Chrome | Galaxy S7 | 6.0 | 53| 6|
-| Chrome | Galaxy S8 | 7.0 | 53| 7|
-| Safari 10.1 | Mac | OSX | 53| 8|
-| Chrome 60 | Windows | 10 | 53| 9|
-| Chrome 59 | Windows | 10 | 53| 10|
-| IE 11 | Windows | 10 | 53| 11|
-| FF 54 | Windows | 10 | 53| 12|
+| Browser |Device | OS |
+| ------------- |-------------|
+| Safari | IPhone 7 | iOS 10.3|
+| Safari | IPhone 6 | iOS 9.3|
+| Safari | Ipad 12 in| iOS 10.3|
+| Safari | Ipad 9.7| iOS 10.3|
+| Safari | Ipad mini | iOS 10.3|
+| Chrome | Galaxy S7 | 6.0 |
+| Chrome | Galaxy S8 | 7.0 |
+| Safari 10.1 | Mac | OSX | 
+| Chrome 60 | Windows | 10 |
+| Chrome 59 | Windows | 10 |
+| IE 11 | Windows | 10 |
+| FF 54 | Windows | 10 |
 
-If we had knowledge of browser/devices clients needed to support or known new products coming on the market (ie iphone X) we would add those to supported group as well.
+If we had knowledge of browser/devices that business/clients needed to support or known new products coming on the market (ie iphone X) we would add those to supported group as well.
 
 ### Accessibility
 
-There are no specific overall requirements for accessibility of the site so we will follow WCAG 2.0A standards. This will ensure the site has basic accessiblility for  a wide range of people with disabilities
+There are no specific overall requirements for accessibility of the site so we will follow WCAG 2.0A standards. This will ensure the site has basic accessiblility for a wide range of people with disabilities
 
 WCAG 2.0A criteria is listed below:        
 https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_overview&levels=aa%2Caaa&technologies=pdf%2Cflash%2Csl#top
 
-We will use to following requirements to met that criteria along with the existing requirements on the page. 
+We will use to following requirements to ensure we meet the WCAG 2.0A criteria along with the existing business requirements. 
 
 | Requirement id |Requirement    | Area |
 | ------------- |:-------------:| -----:|
@@ -195,7 +219,7 @@ We will use to following requirements to met that criteria along with the existi
 
 There are no specific performance goals listed for the site and the site itself is client-side only. We will not do traditional load and stress testing. Instead we will focus on client side rendering on load. 
 
-We will use tools such as webpagetest and lighthouse to measure client side load time to ensure it meets acceptable load times. 
+We will use tools webpagetest and lighthouse to measure client side load time and ensure it meets acceptable load times. 
 
 We will assume the following measures
 
@@ -205,7 +229,7 @@ We will assume the following measures
 | AR11 |On Mobile the page loads under 3 seconds on 3g connection| Accessibility|
 | AR12 |Lighthouse page loads measure under 2 seconds| Accessibility|
 
-These 
+These requirements are following industry standards for site load times.  
 
 ### Security
 There are no specific security requirements for the site and it does not store any PII (ie no database or cookies) so we will not perform any specific security tests on the site. 
@@ -268,7 +292,7 @@ There are no specific security requirements for the site and it does not store a
 |TC46|Rounding up on  two decimals place on a two decimal number|type 5.55 -> press R2|5.56 is displayed|AR06|Rounding||
 |TC47|Rounding down on two decimals place on a five decimal number|type 5.444444 -> press R2|5.44 is displayed|AR05|Rounding||
 |TC48|Rounding up on two decimals place on a negative 10 decimal number|type -5.1111111119 -> press R2|-5.12 is displayed|AR06|Rounding||
-|TC49|Rounding to two decimals when  last digital equal to 5|type 5.5555 -> press R2|5.56 is displayed|AR06|Rounding||
+|TC49|Rounding to two decimals when last digital equals to 5|type 5.5555 -> press R2|5.56 is displayed|AR06|Rounding||
 |TC50|Rounding to zero on integer and press R0|type 5 -> R0|5 is displayed|R13|Rounding||
 |TC51|Rounding to zero - single place|type 5.4 -> press R0|5 is displayed|R13|Rounding||
 |TC52|Rounding up to zero on single place|type 5.6 -> press R0|6 is displayed|AR06|Rounding||
@@ -308,7 +332,7 @@ There are no specific security requirements for the site and it does not store a
 
 The test execution will be tracked on the following google sheet
 
-
+https://docs.google.com/spreadsheets/d/197nqVf0NSwtS_RS0ii9QUwEjWVbzdCcZJjWvXscZbL0/edit?usp=sharing
 
 ### Issue Tracking
 All issues will be reported on the repo's issue tracker on github
@@ -325,11 +349,11 @@ S3 = Minor (The defect affects minor functionality or non-critical data. It has 
 
 S4 = Trivial (It does not impact productivity or efficiency)
 
-The issues will be review with product and dev to ensure agreement of severity and its priority
+The issues will be review with product and development to ensure agreement of severity and its priority
 
 ### Success Criteria
 
-Once a complete test cycle has been done, all the issues will be reviewed with bth the product and development leads to determine what issues are required to be fixed before release to production. Once those issues are determined the testers will test those issues as they are released and once all those issues have been fixed, a final full regression cycle will be run. 
+Once a complete test cycle has been complete, all the issues will be reviewed with the product and development leads to determine what issues are required to be fixed before release to production. Any required issues will be tested by the testers as they are completed development and once all those issues have been fixed, a final full regression cycle will be run. 
 
-This process of test, review and test will continue until there are no more launch critical issues and QA will test off on the release. 
+This process of test, review and re-test will continue until there are no more launch critical issues and QA will test off on the release. 
 
