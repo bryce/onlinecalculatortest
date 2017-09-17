@@ -17,7 +17,7 @@
 ### September 17, 2017
 
 ## Table of Contents
- ### Requirements
+### Requirements
 #### Explicit Requirements
 #### Implicit Requirements
 
