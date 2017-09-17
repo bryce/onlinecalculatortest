@@ -16,28 +16,28 @@
 ### September 17, 2017
 
 ## Table of Contents
- ### [Requirements]
-#### [Explicit Requirements](#explicit-requirements)
-#### [Implicit Requirements](#implicit-requirements)
+ ### Requirements
+#### Explicit Requirements
+#### Implicit Requirements
 
 ### Types of Testing 
-#### [Functional](#functional)
-#### [Browser / Device Coverage](#Browser-Device)
-#### [Performance](#Performance)
-#### [Security](#Security)
-#### [Accessibility](#Accessibility)
+#### Functional
+#### Browser / Device Coverage
+#### Performance
+#### Security
+#### Accessibility
 
 ### Test Cases
-#### [Functional Cases](#functional-cases)
-#### [Performance Cases](#performance-cases)
-#### [Accessibility Cases](#accessibility-cases)
-#### [Cross Browser / Device Cases](#browser-device-cases)
+#### Functional Cases
+#### Performance Cases
+#### Accessibility Cases
+#### Cross Browser / Device Cases
 
-### [Test Execution](#test-execution)
+### Test Execution
 
-### [Issue Tracking](#issue-tracking)
+### Issue Tracking
 
-### [Success Criteria](#success-criteria)
+### Success Criteria
 
 
 
@@ -210,16 +210,16 @@ These
 ### Security
 There are no specific security requirements for the site and it does not store any PII (ie no database or cookies) so we will not perform any specific security tests on the site. 
 
-### Analytics
 
 
 ## Test Cases
 
-### Functional Cases <a id="functional-cases"></a>
+### Functional Cases
             
 
 |Test Case id|Test Case Description|Steps|Expected Results|Associated Requirement|Area|
 |-------------|:-------------:|-----|-----|-----|-----|
+|Functional Cases
 |TC01|Addition of two positive integers|5 + 12|17|N/A|Operations||
 |TC02|Addition of two negative integers|-4 + -444|-448|N/A|Operations||
 |TC03|Addition of one positive and one negative integer where positive is greater|12 + -7|5|R1|Operations||
@@ -301,13 +301,13 @@ There are no specific security requirements for the site and it does not store a
 |TC79|Check page load time (Lighthouse)|Desktop chrome -> dev tools -> audits tab -> peform audit -> select performance |Page is fully loaded under 2 seconds|AR12|Performance||
 |TC80|All Clear removes all values|Press 8 + 8 = -> Press CE -> Press AC -> press + -> press3 -> press =|16 should appear then be removed. Nothing should happen then you press +3 = as value is removed|R7|Operations|
 
-### Test Execution <a id="test-execution"></a>
+### Test Execution
 
 The test execution will be tracked on the following google sheet
 
 
 
-### Issue Tracking <a id="issue-tracking)"></a>
+### Issue Tracking
 All issues will be reported on the repo's issue tracker on github
 
 https://github.com/bryce/onlinecalculatortest/issues
@@ -324,7 +324,7 @@ S4 = Trivial (It does not impact productivity or efficiency)
 
 The issues will be review with product and dev to ensure agreement of severity and its priority
 
-### Success Criteria <a id="success-criteria)"></a>
+### Success Criteria
 
 Once a complete test cycle has been done, all the issues will be reviewed with bth the product and development leads to determine what issues are required to be fixed before release to production. Once those issues are determined the testers will test those issues as they are released and once all those issues have been fixed, a final full regression cycle will be run. 
 
