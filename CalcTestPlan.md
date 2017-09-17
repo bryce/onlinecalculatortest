@@ -12,6 +12,7 @@
                                                         |  $$$$$$/
                                                          \______/ 
 
+
 ### By Bryce Clarke
 ### September 17, 2017
 
@@ -90,12 +91,12 @@ These are the core business requirements that the application must meet.
 
 The following are requirements that not specifically listed in any of the application pages. 
 
-Normally these requirements would be discussed with the product and development teams in order to understand the business cases for each. For this assignment we will have to make some assumptions about the functionality/scope in leiu of having those discussions. 
+Normally these requirements would be discussed with the product and development teams in order to understand the business cases for each. For this assignment we will have to make some assumptions about the functionality/scope in lieu of having those discussions. 
 
 #### Scope of Testing
 #### Out of scope for this exercise 
 
-The version of the same calculator on calculatorsoup.com sirte or the widget version of the calculator are both out of scope since they are specifically called out in the assignment. 
+The version of the same calculator on calculatorsoup.com site or the widget version of the calculator are both out of scope since they are specifically called out in the assignment. 
 
 See following links 
 
@@ -132,7 +133,7 @@ The calculator will follow these rules:
 | AR05 |If the digit in the next smallest place value is less than five (0, 1, 2, 3, or 4), you leave the digit you want to round to as-is. Any digits after that number become zeros, or drop-off if they're located after the decimal point. | Rounding| 
 | AR06 |If the next smallest place value is greater than or equal to five (5, 6, 7, 8, or 9), you increase the value of the digit you're rounding to by one (+1) | Rounding|
         
-We will not assume the calculator uses Banker's Rounding rules (round to nearest even number) for this excerise
+We will not assume the calculator uses Banker's Rounding rules (round to nearest even number) for this exercise
 
 
 ### Browser / Device support
@@ -203,7 +204,7 @@ Mobile - 32%
 
 Tablet - 13%
 
-We will be testing any browser / device os comvination where the total page view popularity of > 5% of total views in the last 2 months in Canada. This ensures the site works with the majority of our users and limits the scope of supported browsers/devices. 
+We will be testing any browser / device os combination where the total page view popularity of > 5% of total views in the last 2 months in Canada. This ensures the site works with the majority of our users and limits the scope of supported browsers/devices. 
 
 
 With this criteria the following Browser/device/OSes combinations are in scope. 
@@ -227,7 +228,7 @@ If we had knowledge of browser/devices that business/clients needed to support o
 
 ### Accessibility
 
-There are no specific overall requirements for accessibility of the site so we will follow WCAG 2.0A standards. This will ensure the site has basic accessiblility for a wide range of people with disabilities
+There are no specific overall requirements for accessibility of the site so we will follow WCAG 2.0A standards. This will ensure the site has basic accessibility for a wide range of people with disabilities
 
 WCAG 2.0A criteria is listed below:        
 https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_overview&levels=aa%2Caaa&technologies=pdf%2Cflash%2Csl#top
@@ -382,4 +383,3 @@ The issues will be review with product and development to ensure agreement of se
 Once a complete test cycle has been complete, all the issues will be reviewed with the product and development leads to determine what issues are required to be fixed before release to production. Any required issues will be tested by the testers as they are completed development and once all those issues have been fixed, a final full regression cycle will be run. 
 
 This process of test, review and re-test will continue until there are no more launch critical issues and QA will test off on the release. 
-
